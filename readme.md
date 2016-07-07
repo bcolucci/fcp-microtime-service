@@ -18,9 +18,6 @@ Example usage:
 
 ## How to test
 
-    # first install node-foreman
-    [sudo] npm install -g foreman
-
     git clone https://github.com/bcolucci/freecodecamp.git \
       && npm install \
       && npm test \

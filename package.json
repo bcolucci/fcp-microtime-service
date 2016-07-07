@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "decription": "Free Code Camp Microtime Service",
   "scripts": {
-    "start": "nf start",
+    "start": "./node_modules/.bin/nf start",
     "test": "./node_modules/.bin/_mocha --opts ./mocha.opts"
   },
   "devDependencies": {
@@ -12,6 +12,7 @@
     "sinon": "^1.17.4"
   },
   "dependencies": {
-    "express": "^4.14.0"
+    "express": "^4.14.0",
+    "foreman": "^1.4.1"
   }
 }
