@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "decription": "Free Code Camp Microtime Service",
   "scripts": {
-    "start": "NODE_PORT=3210 node server.js",
+    "start": "NODE_PORT=80 node server.js",
     "test": "./node_modules/.bin/_mocha --opts ./mocha.opts"
   },
   "devDependencies": {
