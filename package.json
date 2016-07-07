@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "decription": "Free Code Camp Microtime Service",
   "scripts": {
-    "start": "node server.js",
+    "start": "nf start",
     "test": "./node_modules/.bin/_mocha --opts ./mocha.opts"
   },
   "devDependencies": {
