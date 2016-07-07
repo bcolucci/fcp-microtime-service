@@ -5,4 +5,4 @@ const http = require('http')
 
 app.use(require('./lib/router'));
 
-http.createServer(app).listen(80);
+http.createServer(app).listen(80, '0.0.0.0');
