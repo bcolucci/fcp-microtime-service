@@ -5,5 +5,4 @@ const http = require('http')
 
 app.use(require('./lib/router'));
 
-http.createServer(app)
-  .listen(process.env.NODE_PORT);
+http.createServer(app).listen(80);
