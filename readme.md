@@ -11,8 +11,8 @@ contains either a unix timestamp or a natural language date (example: January 1,
 
 Example usage:
 
-    https://timestamp-ms.herokuapp.com/December%2015,%202015
-    { "unix": 1450137600, "natural": "December 15, 2015" }
+    https://fcp-microtime-service.herokuapp.com/123456789
+    {"unix":123456789,"natural":"Fri Jan 02 1970"}
 
 ## How to test
 

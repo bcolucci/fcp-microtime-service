@@ -2,6 +2,9 @@
   "name": "fcc-microtime-service",
   "version": "1.0.0",
   "decription": "Free Code Camp Microtime Service",
+  "author": "Brice Colucci <brice.colucci@gmail.com>",
+  "main": "index.js",
+  "private": true,
   "scripts": {
     "start": "./node_modules/.bin/nf start",
     "test": "./node_modules/.bin/_mocha --opts ./mocha.opts"
