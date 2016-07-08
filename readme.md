@@ -1,5 +1,5 @@
 
-# API Basejump: Timestamp microservice
+# Timestamp microservice
 
 ## Description
 
