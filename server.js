@@ -4,10 +4,12 @@ process.on('uncaughtException', function (err) {
   console.error('Caught exception: %s', err);
 });
 
-const http = require('http')
-  , app = require('express')();
+// ---
+
+const app = require('express')();
 
 app.use(require('./lib/router'));
 
-http.createServer(app)
-  .listen(process.env.APP_PORT);
+app.listen(process.env.APP_PORT, '0.0.0.0', function () {
+  console.log('Server listening on :%d', process.env.APP_PORT);
+});
