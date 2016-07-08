@@ -1,6 +1,8 @@
 'use strict';
 
-process.on('uncaughtException', err => console.error(`Caught exception: ${err}`);
+process.on('uncaughtException', function (err) {
+  console.error('Caught exception: %s', err);
+});
 
 const http = require('http')
   , app = require('express')();
