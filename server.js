@@ -6,10 +6,11 @@ process.on('uncaughtException', function (err) {
 
 // ---
 
-const app = require('express')();
+const app = require('express')()
+  , PORT = process.env.LOCAL_PORT || 80;
 
 app.use(require('./lib/router'));
 
-app.listen(process.env.APP_PORT, '0.0.0.0', function () {
-  console.log('Server listening on :%d', process.env.APP_PORT);
+app.listen(PORT, '0.0.0.0', function () {
+  console.log('Server listening on :%d', PORT);
 });
