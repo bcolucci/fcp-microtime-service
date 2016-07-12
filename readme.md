@@ -17,6 +17,7 @@ Example usage:
 ## How to test
 
     git clone https://github.com/bcolucci/fcp-microtime-service.git \
+      && cd fcp-microtime-service \
       && npm install \
       && npm test \
       && npm start \
